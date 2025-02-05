@@ -1,0 +1,64 @@
+
+
+/* Fixing the body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 80px; /* Prevent navbar from overlapping content */
+  background: linear-gradient(0deg, rgba(137, 251, 234, 0.92),rgba(50, 192, 147, 0.8), rgba(46, 127, 130, 0.884));
+}
+
+/* Center the form properly */
+form {
+  display: block;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 100px auto;  /* Centers the form */
+}
+
+
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+   
+    transition: color 1ms, transform 2ms;
+    -webkit-transition: color 1ms, transform 2ms;
+    -moz-transition: color 1ms, transform 2ms;
+    -ms-transition: color 1ms, transform 2ms;
+    -o-transition: color 1ms, transform 2ms;
+    
+}
+button:hover{
+    background-color: rgba(137, 251, 234, 0.92);
+    color: black;
+    
+}

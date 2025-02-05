@@ -1,0 +1,113 @@
+nav {
+    background-color: #a8dadc;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 10;
+   
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0;
+   
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 50px 20px;
+    color: black;
+    transition: color 1ms;
+    -webkit-transition: color 1ms;
+    -moz-transition: color 1ms;
+    -ms-transition: color 1ms;
+    -o-transition: color 1ms;
+}
+nav ul li a:hover {
+    color: #457b9d ;
+}
+body{
+background-color: #f1faee;
+
+
+    background: linear-gradient(180deg, rgba(137, 251, 234, 0.92),rgba(50, 192, 147, 0.8), rgba(46, 127, 130, 0.884)); 
+}
+.main{
+    display: flex;
+    width: 100%;
+}
+
+.cat_img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width:400px;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transition: transform 2s;
+    -webkit-transition: transform 2s;
+    -moz-transition: transform 2s;
+    -ms-transition: transform 2s;
+    -o-transition: transform 2s;
+    max-width: 100%;
+}
+.cat_img:hover {
+    transform: rotate(57deg);
+    -webkit-transform: rotate(57deg);
+    -moz-transform: rotate(57deg);
+    -ms-transform: rotate(57deg);
+    -o-transform: rotate(57deg);
+}
+.cat_img img{
+    max-width: 100%;
+    height: 500px;
+    transform: translate(2cm, 0cm);
+    transition: height 2s;
+    -webkit-transition: height 2s;
+    -moz-transition: height 2s;
+    -ms-transition: height 2s;
+    -o-transition: height 2s;
+    -webkit-transform: translate(2cm, 0cm);
+    -moz-transform: translate(2cm, 0cm);
+    -ms-transform: translate(2cm, 0cm);
+    -o-transform: translate(2cm, 0cm);
+}
+.cat_img img:hover{
+    height: 700px;
+}
+.cringe_parah{
+    flex: 1;
+    padding: 20px;
+    font-size:large;
+    max-width: 50%;
+}
+
+.scrolling{
+    overflow-x: scroll;
+    display: flex;
+    gap: 10px; 
+    padding: 20px;
+    width: 100%; 
+    margin-top: 20px; 
+}
+.scrolling img{
+    max-height: 200px;
+    width: auto;
+}
